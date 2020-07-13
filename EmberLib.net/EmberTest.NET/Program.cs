@@ -1,3 +1,11 @@
+/*
+   EmberLib.net -- .NET implementation of the Ember+ Protocol
+
+   Copyright (C) 2012-2019 Lawo GmbH (http://www.lawo.com).
+   Distributed under the Boost Software License, Version 1.0.
+   (See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
+*/
+
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -276,7 +284,7 @@ namespace EmberTest.NET
          appDefined2.Insert(new BerTag(BerClass.ContextSpecific, 2), true);
          appDefined2.Insert(new BerTag(BerClass.ContextSpecific, 3), false);
          appDefined2.Insert(new BerTag(BerClass.ContextSpecific, 4), 12345.6789);
-         appDefined2.Insert(new BerTag(BerClass.ContextSpecific, 5), "wasgehtäb?");
+         appDefined2.Insert(new BerTag(BerClass.ContextSpecific, 5), "wasgehtï¿½b?");
 
          Console.WriteLine("\r\n------------------------ XML Import");
          var xml1 = GetXml(frame);

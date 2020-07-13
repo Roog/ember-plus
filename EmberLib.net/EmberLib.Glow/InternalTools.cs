@@ -8,7 +8,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.Text;
 using BerLib;
 
 namespace EmberLib.Glow

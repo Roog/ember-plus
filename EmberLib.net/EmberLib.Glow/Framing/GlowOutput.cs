@@ -7,8 +7,6 @@
 */
 
 using System;
-using System.Collections.Generic;
-using System.Text;
 using EmberLib.Framing;
 
 namespace EmberLib.Glow.Framing

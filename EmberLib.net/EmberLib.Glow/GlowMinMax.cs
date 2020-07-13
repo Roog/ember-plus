@@ -7,9 +7,6 @@
 */
 
 using System;
-using System.Collections.Generic;
-using System.Text;
-using BerLib;
 using System.Globalization;
 
 namespace EmberLib.Glow
